@@ -57,7 +57,8 @@ namespace testtMongo.Controllers
 
         [Route("api/Employee/GetBookMongo")]
         [HttpGet]
-        public HttpResponseMessage GetBookMongo(string title,string status)
+        //public HttpResponseMessage GetBookMongo(string title,string status)
+        public HttpResponseMessage GetBookMongo()
         {
             StringBuilder sb = new StringBuilder();
             try
