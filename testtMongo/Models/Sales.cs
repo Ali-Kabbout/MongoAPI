@@ -32,6 +32,7 @@ namespace testtMongo.Models
         public bool couponUsed { get; set; }
         public string purchaseMethod { get; set; }
         public string storeLocation { get; set; }
+        public DateTime deleted_at { set; get; }
 
     }
 }

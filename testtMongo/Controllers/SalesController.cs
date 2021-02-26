@@ -56,6 +56,7 @@ namespace testtMongo.Controllers
             List<Sales> sales = new List<Sales>();
             try
             {
+
                 bool isSearchFieldsFilled = false;
                 string comma = ",";
                 StringBuilder query = new StringBuilder();
